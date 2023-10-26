@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* img.slide{
+    height: 500px;
+    width: 800px;
+ } */
+
+ /*-----------------  Header --------------*/
+ #loggy{
+    cursor: pointer;
+ }
+
+ @media (max-width: 900px){
+    #loggy{
+
+        display: flex;
+        justify-content: center;
+      
+        
+    }
+ }
+
+
+  /*--------------- end of Header --------------*/
+
+
+
+a{
+    color: inherit;
+}
+p{
+    font-size: 14px;
+}
+
+h2{
+    FONT-SIZE: 23px;
+}
+
+
+
+
+
+/*------------------ Content 1 --------------------------*/
+
+.container-fluid{
+    margin-top: 20px;
+}
+
+.content1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+    pointer-events: none;
+  }
+
+
+
+  .content1:hover img {
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+ 
+  }
+
+
+/*------------------  end of Content 1 --------------------------*/
+
+
+
+
+
+/*--------------------------- Content 2 ---------------------*/
+
+
+  section{
+    background-color: #eee;
+}
+
+/*---------------------------end of Content 2 ---------------------*/
+
+
+
+
+
+
+
+
+
+/*-------------------- Footer ----------------------------*/
+
+.footerimg{
+    height: 60px;
+    width: 128px;
+    cursor: pointer;
+}
+
+.lists ul li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+
+.icons{
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.informations ul li{
+    list-style: none;
+    display: inline;
+    font-size: 12px;
+    padding: 0 12px;
+   
+
+}
+
+
+.lastcont{
+    font-size: 12px;
+}
+
+  .breakline{
+    display: none;
+}
+
+@media(max-width: 1200px){
+    .breakline{
+        display: block;
+    }
+}
